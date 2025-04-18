@@ -1,0 +1,25 @@
+# Python artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and local env files
+*.log
+.env
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Misc
+*.db

@@ -1,0 +1,4 @@
+{
+  "name": "Proto2Prod Dev",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10"
+}
