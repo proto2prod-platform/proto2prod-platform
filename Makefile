@@ -1,6 +1,25 @@
-.PHONY: all
+.PHONY: all bootstrap install-dev proto2prod-check test docs lint package
 
-all:
-	@echo "Proto2Prod Platform Makefile"
+all: proto2prod-check
 
-# Additional targets to be defined later
+bootstrap:
+	python -m pip install --upgrade pip
+	pip install -r requirements.txt
+
+install-dev:
+	pip install -e common/
+	pip install -r requirements.txt
+
+proto2prod-check: test lint docs
+
+test:
+	pytest -q
+
+lint:
+	pre-commit run --all-files
+
+docs:
+	cd docs && make docs
+
+package:
+	python -m build
