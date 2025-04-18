@@ -1,0 +1,27 @@
+[submodule "governance"]
+	path = governance
+	url = https://github.com/proto2prod-platform/proto2prod-governance.git
+[submodule "templates"]
+	path = templates
+	url = https://github.com/proto2prod-platform/proto2prod-scaffold.git
+[submodule "evals"]
+	path = evals
+	url = https://github.com/proto2prod-platform/proto2prod-evals.git
+[submodule "policies"]
+	path = policies
+	url = https://github.com/proto2prod-platform/proto2prod-policies.git
+[submodule "common"]
+	path = common
+	url = https://github.com/proto2prod-platform/proto2prod-common.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/proto2prod-platform/proto2prod-scripts.git
+[submodule "ci"]
+	path = ci
+	url = https://github.com/proto2prod-platform/proto2prod-ci.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/proto2prod-platform/proto2prod-docs.git
+[submodule "tests"]
+	path = tests
+	url = https://github.com/proto2prod-platform/proto2prod-tests.git
