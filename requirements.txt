@@ -1,1 +1,5 @@
+-e common/
+openai
+copier
+jinja2
 sphinx
